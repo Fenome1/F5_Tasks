@@ -1,0 +1,24 @@
+.sendButton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: #2B427E;
+    color: #FFFFFF;
+
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.sendButton:hover {
+    background-color: #3E5EB1;
+}
+
+.sendButton:active {
+    background-color: #1C2A50;
+}
+
+
+

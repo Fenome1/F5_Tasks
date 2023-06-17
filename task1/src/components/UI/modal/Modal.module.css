@@ -1,0 +1,44 @@
+.modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 48px 48px 48px 48px;
+    background-color: white;
+}
+
+.modalH1, .modalInput, .modalButton, .modalInputFile {
+    display: block;
+    width: 365px;
+    height: 57px;
+    margin-bottom: 20px;
+}
+
+.modalH1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.modalInputFile {
+    margin-bottom: 48px;
+}
+
+.closeCross {
+    position: relative;
+    top: -350px;
+    left: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

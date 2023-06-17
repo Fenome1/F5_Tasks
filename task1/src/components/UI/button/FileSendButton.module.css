@@ -1,0 +1,26 @@
+.fileSend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #2B427E;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.vectorImg{
+    position: absolute;
+    margin-left: 10px;
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+}
